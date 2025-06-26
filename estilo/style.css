@@ -1,3 +1,28 @@
+body {
+  position: relative;
+  margin: 0;
+  background: linear-gradient(to bottom, black, gray);
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: url(../img/poster-parasita.jpg) no-repeat top center;
+  background-size: cover;
+  opacity: 0.4; /* Opacidade da imagem */
+  z-index: 0;
+}
+
+body > * {
+  position: relative;
+  z-index: 1; /* Coloca o conteúdo acima da imagem */
+}
+
+
 #boxCabecalho{
   display: flex;
   justify-content: space-around;
@@ -15,3 +40,21 @@
   align-items: center;
   gap: 60px;
 }
+
+#boxIndicarFilme{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#boxTextoPrincipal{
+  width: 50%;
+  margin-top: 10%;
+  background-color: red;
+}
+
+#boxBtnTentativa{
+  display: flex;
+  justify-content: center;
+}
+
