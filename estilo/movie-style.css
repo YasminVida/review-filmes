@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  font-family: "Montserrat", sans-serif;
+}
+
+#boxPrincipalFilmes{
+  padding: 20px;
+}
+
+.boxGeneroFilme{
+  padding: 5px 20px 20px 20px;
+  color: #FFFFFF;
+  overflow: scroll;
+}
+
+.boxGeneroTitulo{
+  border-bottom: solid 1px #fafafb61;
+  margin-bottom: 20px;
+}
+
+.boxGeneroFilme p{
+  padding-left: 3px;
+  margin-bottom: 3px;
+  font-weight: bold;
+}
+
+.boxFotosFilmes{
+  margin-top: -10px;
+  display: flex;
+  gap: 20px;
+}
+
+.boxFotosFilmes img{
+  width: 201px;
+  height: 311px;
+  background-color: #000000d3;
+  padding: 10px;
+}
+
+#generoTerror{
+  background-color: #202830;
+  border-radius: 4px;
+}
+
+#generoSuspense{
+  margin-top: 20px;
+  background-color: #202830;
+  border-radius: 4px;
+}
+
+#generoComedia{
+  margin-top: 20px;
+  background-color: #202830;
+  border-radius: 4px;
+}

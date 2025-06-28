@@ -4,12 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../estilo/style.css">
+  <link rel="stylesheet" href="../estilo/movie-style.css">
   <title>CineLens</title>
 </head>
 <body>
   <header id="boxCabecalho">
     <div id="boxImagemLogo">
-      <img src="https://aquitemplacas.com.br/img/produtos/g/3874-controle-de-qualidade-testes.jpg" alt=""/>
+      <img src="../logo.png" alt=""/>
     </div>
 
     <div class="boxNavegacao">
@@ -24,61 +25,163 @@
       </nav>
     </div>
   </header>
-  <main>
-    <section>
-      <p>Filmes de Terror</p>
-      <div>
-        <img src="/filmes/img-filmes/terror/_ (10).jpeg" alt="">
+  <main id="boxPrincipalFilmes">
+    <section class="boxGeneroFilme" id="generoTerror">
+      <div class="boxGeneroTitulo">
+        <p>Filmes de Terror</p>
       </div>
-      <div>
-        <img src="/filmes/img-filmes/terror/A CASA QUE JACK CONSTRUIU.jpeg" alt="">
+
+      <div class="boxFotosFilmes">
+        <div>
+          <a href="">
+            <img src="/filmes/img-filmes/terror/_ (10).jpeg" alt="">
+          </a>
+        </div>
+
+        <div>
+          <a href="">
+            <img src="/filmes/img-filmes/terror/A CASA QUE JACK CONSTRUIU.jpeg" alt="">
+          </a>
+        </div>
+
+        <div>
+          <a href="">
+            <img src="/filmes/img-filmes/terror/Fresh.jpeg" alt="">
+          </a>
+        </div>
+
+        <div>
+          <a href="">
+            <img src="/filmes/img-filmes/terror/pearl.jpeg" alt="">
+          </a>
+        </div>
+
+        <div>
+          <a href="">
+            <img src="/filmes/img-filmes/terror/Possession poster.jpeg" alt="">
+          </a>
+        </div> 
       </div>
-      <div>
-        <img src="/filmes/img-filmes/terror/Fresh.jpeg" alt="">
-      </div>
-      <div>
-        <img src="/filmes/img-filmes/terror/pearl.jpeg" alt="">
-      </div>
-      <div>
-        <img src="/filmes/img-filmes/terror/Possession poster.jpeg" alt="">
-      </div> 
+      
     </section>
-    <section>
-      <p>Filmes de Suspense</p>
-      <div>
-        <img src="/filmes/img-filmes/suspense/_ (10).jpeg" alt="">
+
+    <section class="boxGeneroFilme" id="generoSuspense">
+      <div class="boxGeneroTitulo">
+        <p>Filmes de Suspense</p>
       </div>
-      <div>
-        <img src="/filmes/img-filmes/suspense/_ (11).jpeg" alt="">
-      </div>
-      <div>
-        <img src="/filmes/img-filmes/suspense/_ (9).jpeg" alt="">
-      </div>
-      <div>
-        <img src="/filmes/img-filmes/suspense/A Origem (2010).jpeg" alt="">
-      </div>
-      <div>
-        <img src="/filmes/img-filmes/suspense/Um Contratempo.jpeg" alt="">
+      <div class="boxFotosFilmes">
+        <div>
+          <a href="">
+            <img src="/filmes/img-filmes/suspense/_ (10).jpeg" alt="">
+          </a>
+        </div>
+        <div>
+          <a href="">
+            <img src="/filmes/img-filmes/suspense/_ (11).jpeg" alt="">
+          </a>
+        </div>
+        <div>
+          <a href="">
+            <img src="/filmes/img-filmes/suspense/_ (9).jpeg" alt="">
+          </a>
+        </div>
+        <div>
+          <a href="">
+            <img src="/filmes/img-filmes/suspense/A Origem (2010).jpeg" alt="">
+          </a>
+        </div>
+        <div>
+          <a href="">
+            <img src="/filmes/img-filmes/suspense/Um Contratempo.jpeg" alt="">
+          </a>
+        </div>
       </div>
     </section>
-    <section>
-      <p>Filmes de Comédia</p>
-      <div>
-        <img src="/filmes/img-filmes/comedia/20440238.jpg" alt="">
+
+    <section class="boxGeneroFilme" id="generoComedia">
+      <div class="boxGeneroTitulo">
+        <p>Filmes de Comédia</p>
       </div>
-      <div>
-        <img src="/filmes/img-filmes/comedia/download.jpeg" alt="">
-      </div>
-      <div>
-        <img src="/filmes/img-filmes/comedia/Haunted House 2.jpeg" alt="">
-      </div>
-      <div>
-        <img src="/filmes/img-filmes/comedia/Novocaine Move Poster.jpeg" alt="">
-      </div>
-      <div>
-        <img src="/filmes/img-filmes/comedia/Todo Mundo Quase Morto (Shaun of the Dead - 2004) Edgar Wright_.jpeg" alt="">
+
+      <div class="boxFotosFilmes">
+        <div>
+          <a href="">
+            <img src="/filmes/img-filmes/comedia/20440238.jpg" alt="">
+          </a>
+        </div>
+
+        <div>
+          <a href="">
+            <img src="/filmes/img-filmes/comedia/download.jpeg" alt="">
+          </a>
+        </div>
+
+        <div>
+          <a href="">
+            <img src="/filmes/img-filmes/comedia/Haunted House 2.jpeg" alt="">
+          </a>
+        </div>
+
+        <div>
+          <a href="">
+            <img src="/filmes/img-filmes/comedia/Novocaine Move Poster.jpeg" alt="">
+          </a>
+        </div>
+        
+        <div>
+          <a href="">
+            <img src="/filmes/img-filmes/comedia/Todo Mundo Quase Morto (Shaun of the Dead - 2004) Edgar Wright_.jpeg" alt="">
+          </a>
+        </div>
       </div>
     </section>
   </main>
+
+  <footer class="boxRodape">
+    <div class="wave"></div>
+    
+    <div class="boxInfoAdicional">
+      <div id="boxLinguagemSite">
+        <button type="button" id="btnLinguagem">
+          <img id="worldRepeat" src="../svg/world.svg" alt="Linguagem">
+          <span>Português</span>
+        </button>
+      </div>
+
+      <div id="creditos">
+        <p>© Cinelens Limited feito por Caio e Yasmin</p>
+      </div>
+
+      <div id="rede-sociais">
+        <ul id="listaRedesSociais">
+          <li>
+            <a href="">
+              <img src="../svg/facebook.svg" alt="Facebook">
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="../svg/instagram.svg" alt="Instagram">
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="../svg/youtube.svg" alt="Youtube">
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="../svg/tiktok.svg" alt="TikTok">
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="../svg/github.svg" alt="GitHub">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
