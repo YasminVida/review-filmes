@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../estilo/style.css">
+  <link rel="stylesheet" href="../estilo/review-style.css">
+  <title>CineLens</title>
+</head>
+<body>
+  <header id="boxCabecalho">
+    <div id="boxImagemLogo">
+      <img src="/logo.png" alt=""/>
+    </div>
+
+    <div class="boxNavegacao">
+      <nav id="nav-header">
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/filmes/filmes.html">Filmes</a></li>
+          <li><a href="/series/series.html">Séries</a></li>
+          <li><a href="/review/review.html">Review</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+</body>
+
+<main class="boxPrincipalReview">
+  <section class="boxReview">
+    <div class="textoApresentacao">
+      <h1>Faça sua avaliação</h1>
+      <p>Antes de compartilhar sua opinião, pedimos que você preencha nosso formulário rápido de avaliação. Assim, garantimos que cada review seja personalizada e adequada ao público.</p>
+    </div>
+  </section>
+
+  <section class="boxSessaoAvaliacao">
+    <div class="boxFormulario">
+      <form id="formAvaliacaoConteudo">
+        <fieldset>
+          <legend>1. IDENTIFICAÇÃO:</legend>
+          <div id="boxNome">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" required>
+          </div>
+
+          <div id="boxIdade">
+            <label for="idade">Data de nascimento:</label>
+            <input type="date" name="idade" id="idade" required>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>2. FICHA TÉCNICA DO FILME:</legend>
+
+          <div id="boxTituloFilme">
+            <label for="titulo">Título do filme:</label>
+            <input type="text" name="titulo" id="titulo" required>
+          </div>
+
+          <div id="boxAtoresFilme">
+            <label for="atores">Atores principais:</label>
+            <input type="text" name="atores" id="atores">
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>3. GÊNERO DO FILME:</legend>
+
+          <div id="boxGenero">
+            <input type="radio" name="genero" id="terror" required>
+            <label for="terror">Terror</label>
+
+            <input type="radio" name="genero" id="suspense" required>
+            <label for="suspense">Suspense</label>
+
+            <input type="radio" name="genero" id="comedia" required>
+            <label for="comedia">Comédia</label>
+
+            <input type="radio" name="genero" id="anime" required>
+            <label for="anime">Anime</label>
+
+            <input type="radio" name="genero" id="desenho" required>
+            <label for="desenho">Desenho</label>
+
+            <input type="radio" name="genero" id="dorama" required>
+            <label for="dorama">Dorama</label>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>4. GRAU DE ENTEDIMENTO:</legend>
+          <div id="boxEntendimento">
+            <label for="grau">Selecione a dificuldade:</label>
+            <select name="grau" id="grau" required>
+              <option value=""></option>
+              <option value="facil">Facíl</option>
+              <option value="razoavel">Razoável</option>
+              <option value="dificil">Difícil</option>
+            </select>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>5. COMENTÁRIO AVALIÁTIVO:</legend>
+          <div id="boxAvaliacaoTexto">
+            <label for="avaliacao" id="labelComment">Avaliação:</label>
+            <textarea name="avaliacao" id="avaliacao" cols="75" rows="5" required></textarea>
+          </div>
+        </fieldset>
+
+        <div class="boxBotaoSubmit">
+          <button type="submit" id="btnAvaliacao">Enviar avaliação</button>
+        </div>
+      </form>
+      
+      <div class="boxImagemForm">
+        <div class="retroImagens">
+          <div id="boxImagemPrincipal">
+            <img src="img-sessao/fragmentado.jpeg" alt="">
+          </div>
+  
+          <div id="boxImagemSecundaria">
+            <img src="img-sessao/perola.jpeg" alt="">
+          </div>
+  
+          <div id="boxImagemTerceira">
+            <img src="img-sessao/tarete.jpeg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="boxRodape">
+  <div class="wave"></div>
+  
+  <div class="boxInfoAdicional">
+    <div id="boxLinguagemSite">
+      <button type="button" id="btnLinguagem">
+        <img id="worldRepeat" src="../svg/world.svg" alt="Linguagem">
+        <span>Português</span>
+      </button>
+    </div>
+
+    <div id="creditos">
+      <p>© Cinelens Limited feito por Caio e Yasmin</p>
+    </div>
+
+    <div id="rede-sociais">
+      <ul id="listaRedesSociais">
+        <li>
+          <a href="">
+            <img src="../svg/facebook.svg" alt="Facebook">
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="../svg/instagram.svg" alt="Instagram">
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="../svg/youtube.svg" alt="Youtube">
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="../svg/tiktok.svg" alt="TikTok">
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="../svg/github.svg" alt="GitHub">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+</html>

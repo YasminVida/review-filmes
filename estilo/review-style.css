@@ -1,0 +1,126 @@
+.boxPrincipalReview{
+  padding: 20px;
+}
+
+.boxReview{
+  display: flex;
+  justify-content: center;
+  background-color: #202830;
+  border-radius: 10px;
+}
+
+.textoApresentacao{
+  color: #FFFFFF;
+  width: 80%;
+}
+
+.textoApresentacao h1{
+  display: flex;
+  justify-content: center;
+}
+
+.boxFormulario{
+  display: flex;
+  gap: 20px;
+}
+
+.boxSessaoAvaliacao{
+  background-color: #202830;
+  border-radius: 10px;
+  margin-top: 12px;
+  padding: 10px;
+}
+
+#formAvaliacaoConteudo{
+  background-color: #f6f5f5;
+  padding: 20px;
+  margin: 12px;
+  border-radius: 10px;
+}
+
+#formAvaliacaoConteudo fieldset{
+  margin-bottom: 20px;
+}
+
+#formAvaliacaoConteudo fieldset div{
+  padding-bottom: 12px;
+}
+
+#labelComment{
+  display: block;
+}
+
+.boxBotaoSubmit{
+  display: flex;
+  justify-content: center;
+}
+
+#btnAvaliacao{
+  padding: 10px;
+  width: 30%;
+  cursor: pointer;
+}
+
+.boxImagemForm{ 
+  margin: 10px 15px;
+  padding: 10px;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  background: linear-gradient(#101213b5, #4f1212c2);
+}
+
+.retroImagens img{
+  margin-left: -40px;
+  margin-top: 20px;
+  width: 280px;
+  height: 280px;
+  border-radius: 10px;
+}
+
+#boxImagemPrincipal{  
+  margin-top: 15px;
+  margin-bottom: -55px;
+}
+
+#boxImagemSecundaria{
+  margin-left: 20%;
+}
+
+#boxImagemTerceira{ 
+  margin-top: -90px;
+}
+
+#formAvaliacaoConteudo input{
+  margin-top: 4px;
+}
+
+#boxEntendimento label{
+  display: block;
+  padding-bottom: 4px;
+}
+
+#boxAvaliacaoTexto label{
+  display: block;
+  padding-bottom: 4px;
+}
+
+#boxIdade label{
+  display: block;
+  padding-bottom: 4px;
+}
+
+#boxIdade input{
+  width: 40%;
+}
+
+#boxEntendimento select{
+  width: 60%;
+  padding: 10px;
+}
+
+input[type="text"]{
+  padding: 2px;
+  width: 100%;
+}
