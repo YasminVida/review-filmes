@@ -45,16 +45,66 @@
   border-radius: 5px;
 }
 
-.boxTextoSinopse{
-  padding: 0 20px 20px 0;
+.boxTextoSobre{
+  margin-top: 20px;
+  background-color: #202830;
+  padding: 20px;
+  color: #FFFFFF;
+  border-radius: 4px;
 }
 
-.boxTextoSinopse h1{
+.boxTextoSobre h1{
   font-size: 40px;
   margin: 0;
 }
 
-.boxTextoSinopse p{
+.boxTextoSobre p{
+  font-weight: 400;
+}
+
+.boxTextoAva{
+  margin-top: 20px;
+  background-color: #202830;
+  padding: 20px;
+  color: #FFFFFF;
+  border-radius: 4px;
+}
+
+.boxTextoAva h1{
+  font-size: 40px;
+  margin: 0;
+}
+
+.boxTextoAva p{
+  font-weight: 400;
+}
+
+#linkAssistir {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+#linkAssistir a{
+  text-decoration: none;
+  color: #0b85ff;
+}
+
+.boxAssistir{
+  margin-top: 10px;
+  background-color: #202830;
+  padding: 20px;
+  color: #FFFFFF;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.boxAssistir h1{
+  font-size: 40px;
+  margin: 0;
+}
+
+.boxAssistir p{
   font-weight: 400;
 }
 

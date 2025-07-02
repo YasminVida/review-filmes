@@ -1,0 +1,130 @@
+.boxPerfilUsuario{
+  display: flex;
+  border-top: solid 0.1px #fafafb61;
+  border-bottom: solid 0.1px #fafafb61;
+  padding: 5px  ;
+}
+
+.boxComentarios img{
+  margin-top: 20px;
+  width: 40px;
+  border-radius: 20px;
+}
+
+.boxComentarios div:has(img){
+
+}
+
+.boxComentarios div:has(p){
+  padding-left: 10px;
+  font-size: 12px;
+}
+
+.boxVideo video{
+  width: 880px;
+  padding: 20px 0px 20px 0;
+}
+
+.boxSinopse{
+  display: flex;
+  gap: 20px;
+}
+
+.boxImagemSinopse{
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.boxImagemSinopse img{
+  height: 490px;
+  width: 320px;
+  border-radius: 5px;
+}
+
+.boxTextoSinopse{
+  padding: 0 20px 20px 0;
+}
+
+.boxTextoSinopse h1{
+  font-size: 40px;
+  margin: 0;
+}
+
+.boxTextoSinopse p{
+  font-weight: 400;
+}
+
+.boxAvaliacoes p{
+  font-weight: 400;
+}
+
+.boxPerfilUsuario p>span{
+  cursor: pointer;
+}
+
+.boxTextoSobre{
+  margin-top: 20px;
+  background-color: #202830;
+  padding: 20px;
+  color: #FFFFFF;
+  border-radius: 4px;
+}
+
+.boxTextoSobre h1{
+  font-size: 40px;
+  margin: 0;
+}
+
+.boxTextoSobre p{
+  font-weight: 400;
+}
+
+.boxTextoAva{
+  margin-top: 20px;
+  background-color: #202830;
+  padding: 20px;
+  color: #FFFFFF;
+  border-radius: 4px;
+}
+
+.boxTextoAva h1{
+  font-size: 40px;
+  margin: 0;
+}
+
+.boxTextoAva p{
+  font-weight: 400;
+}
+
+#linkAssistir {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+#linkAssistir a{
+  text-decoration: none;
+  color: #0b85ff;
+}
+
+.boxAssistir{
+  margin-top: 10px;
+  background-color: #202830;
+  padding: 20px;
+  color: #FFFFFF;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.boxAssistir h1{
+  font-size: 40px;
+  margin: 0;
+}
+
+.boxAssistir p{
+  font-weight: 400;
+}
+
+#origemMovie{
+  height: 390px;
+}
